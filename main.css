@@ -1,0 +1,271 @@
+/*ul {
+    width:100%;
+    margin:0;
+    padding:0;
+    list-style:none;
+    background-color:#222222;
+    text-align:center;
+    font-family: sans-serif; 
+    position: fixed;
+    z-index: 9;
+}
+
+.navbar {
+	position: absolute;
+	margin: 0;
+}
+
+.navbar li { 
+    display:inline-block;
+    width:15%;
+    margin:0;
+    padding:0;
+}
+.navbar a {
+    text-align:center;
+    padding:10px 0 10px 0;
+    margin:0;
+    display:block;
+}
+.navbar a:hover { 
+    background: black;
+    border:none;
+}
+
+ul.navbar li:first-child a{
+    border:none;
+}
+ul.navbar li:last-child a {
+    border:none;
+}​*/
+
+
+ul {
+	position: fixed;
+	top: 0;
+	width: 105%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222222;
+    text-align: center;
+    z-index: 9;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 13px;
+    text-decoration: none;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: 5%;
+	margin-right: 8.5%;
+	font-family: "Montserrat", Times, sans-serif;
+	/*font: 21px/60px "colaborate-boldregular";*/
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.navbar img {
+	position: absolute;
+	height: 40%;
+}
+
+.navbar {
+	position: absolute;
+	background-color: #222222;
+	width: 120%;
+	margin-left: -5px;
+}
+
+.banner {
+	margin-top: 40px;
+	width: 100%;
+	height: 400px;
+	position: relative;
+	/*color: white;*/
+	overflow: hidden;
+}
+
+.banner-text {
+	position: absolute;
+	top: 20px;
+	left: 8%;
+	color: white;
+	font-size: 26px;
+}
+
+.banner h1 {
+	font-family: "Montserrat", Times, sans-serif;
+}
+
+.button {
+	position: relative;
+}
+
+.shop-button {
+	display: inline-block;
+	position: absolute;
+	bottom: 60px;
+	left: 8%;
+	width: 100px;
+	height: 50px;
+	background-color: white;
+	text-align: center;
+	padding-top: 14px;
+	font-family: "Montserrat", Times, sans-serif;
+}
+
+.banner img {
+	/*width: 100%;
+	height: 3000px;*/
+	/*margin: 0px 0 0 0px;*/
+	background-position: center;
+	background-size: cover;
+}
+
+.products {
+	width: 100%;
+	height: 150px;
+	position: relative;
+	margin-top: 70px;
+	/*margin-bottom: 50px;*/
+}
+
+.products .left {
+	position: relative;
+	/*width: 100px;*/
+	float: left;
+	margin-left: 40px;
+	font-family: "Futura", Times, serif;
+	font-size: 20px;
+	/*border-collapse: collapse;*/
+}
+
+.products .center {
+	position: relative;
+	margin-left: 110px;
+	float: left;
+	/*width: 60%;*/
+	font-family: "Futura", Times, serif;
+	font-size: 20px;
+}
+
+.products .right {
+	position: relative;
+	margin-right: 40px;
+	float: right;
+	font-family: "Futura", Times, serif;
+	font-size: 20px;
+}
+
+.products img {
+	height: 350px;
+	margin-top: 15px;
+}
+
+.products p {
+	margin-top: 40px;
+}
+
+.top {
+	width: 100%;
+	/*height: 30px;*/
+	border-bottom: 6px solid black;
+	position: absolute;
+}
+
+.bottom {
+	width: 100%;
+	height: 15px;
+	border-bottom: 4px solid #222222;
+	position: absolute;
+}
+
+.story {
+	width: 100%;
+	height: 650px;
+	float: left;
+	position: relative;
+	margin-top: 70px;
+	overflow: hidden;
+	background-image: url(img/bg3.png);
+}
+
+.story-text {
+	position: absolute;
+	align-items:center;
+	justify-content:center;
+	width: 75%;
+	height: 55%;
+	left: 12%;
+	top: 20%;
+	background-color: #222222;
+	padding: 5px 90px 20px 90px;
+}
+
+.story-text h2 {
+	text-align: center;
+	color: white;
+	font-family: "Futura", Times, serif;
+	margin-bottom: 40px;
+}
+
+.story-text p {
+	color: white;
+	font-family: "Avenir", Times, serif;
+	font-size: 20px;
+}
+
+.contact {
+	background-color: #d3d3d3;
+	float: left;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+
+.contact h3 {
+	margin-bottom: 60px;
+	font-family: "Futura", Times, serif;
+}
+
+.contact button {
+	background-color: #777777;
+	padding: 15px;
+	font-family: "Montserrat", "Times", sans-serif;
+}
+
+input[type=text] {
+	margin-bottom: 17px;
+	padding-left: 15px;
+	font-family: "Montserrat", "Times", sans-serif;
+}
+
+.contact textarea {
+	font-family: "Montserrat", "Times", sans-serif;
+	margin-bottom: 18px;
+	padding-left: 15px;
+	height: 300px;
+}
+
+.footer {
+	float: left;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
